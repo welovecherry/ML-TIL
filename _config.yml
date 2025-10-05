@@ -1,0 +1,37 @@
+title: ML-TIL
+description: Vision-Language Models · Paper Reviews · ML Notes
+author: HER JEU
+email: your_email@example.com
+github_username: jungminhong123
+
+# 기본 테마 설정
+theme: minima
+
+# 블로그 설정
+show_excerpts: true
+paginate: 5
+paginate_path: "/page:num/"
+
+# 시간/날짜 포맷
+timezone: Asia/Seoul
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# 링크 자동화
+permalink: /:categories/:year-:month-:day-:title/
+
+# 기본 색상 테마 (minima 내장 옵션)
+minima:
+  skin: classic
+  date_format: "%Y-%m-%d"
+
+social_links:
+  github: welovecherry
+  linkedin: https://www.linkedin.com/in/jungmin-hong-887632336/
+
+# 카테고리 페이지를 만들고 싶을 때
+collections:
+  posts:
+    output: true
