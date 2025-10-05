@@ -1,16 +1,24 @@
 title: ML-TIL
 description: Vision-Language Models · Paper Reviews · ML Notes
-author: HER JEU
-email: your_email@example.com
+author: jungminhong
 github_username: jungminhong123
 
 # 기본 테마 설정
-theme: minima
+# theme: Minimal Mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-include-cache
 
-# 블로그 설정
+minimal_mistakes_skin: dark
+search: true
 show_excerpts: true
 paginate: 5
-paginate_path: "/page:num/"
+
+
+# 사이드바
+author_profile: true
+sidebar:
+  nav: "main"
 
 # 시간/날짜 포맷
 timezone: Asia/Seoul
@@ -34,4 +42,4 @@ social_links:
 # 카테고리 페이지를 만들고 싶을 때
 collections:
   posts:
-    output: true
+    output: true 

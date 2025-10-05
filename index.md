@@ -1,6 +1,7 @@
 ---
 layout: home
-title: ML-TIL 111
+author_profile: true
+title: ML-TIL
 ---
 
 # 👋 Welcome to **ML-TIL**
